@@ -1,9 +1,12 @@
+{% set version = "0.1" %}
+
 package:
   name: plume
-  version: 0.1
+  version: {{ version }}
 
 source:
   git_url: https://github.com/mcflugen/plume
+  git_tag: v{{ version }}
 
 requirements:
   build:
